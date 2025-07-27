@@ -1,0 +1,169 @@
+2025-07-27 08:57:56,485 - trading_bot - ERROR - dashboard_page:329 - Failed to load market data: 'price'
+2025-07-27 08:57:56,906 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 08:57:56,934 - trading_bot - ERROR - analysis_page:596 - Failed to load historical data: cannot convert input with unit 's'
+2025-07-27 08:57:56,941 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 08:58:45,268 - trading_bot - INFO - setup_logger:52 - ==================================================
+2025-07-27 08:58:45,268 - trading_bot - INFO - setup_logger:53 - Trading Bot Logger Initialized - 2025-07-27 08:58:45.268761
+2025-07-27 08:58:45,268 - trading_bot - INFO - setup_logger:54 - ==================================================
+2025-07-27 08:58:45,284 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 08:58:45,285 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 08:58:45,286 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 08:58:45,890 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 08:58:46,117 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 08:58:52,678 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 08:58:52,679 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 08:58:52,680 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 08:58:53,332 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 08:58:53,508 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 08:59:45,351 - trading_bot - INFO - __init__:39 - Binance client initialized - Testnet: True
+2025-07-27 08:59:45,352 - trading_bot - INFO - __init__:18 - Market order handler initialized
+2025-07-27 08:59:45,354 - trading_bot - INFO - __init__:18 - Limit order handler initialized
+2025-07-27 08:59:45,354 - trading_bot - INFO - __init__:20 - OCO order handler initialized
+2025-07-27 08:59:45,354 - trading_bot - INFO - __init__:18 - Market order handler initialized
+2025-07-27 08:59:45,355 - trading_bot - INFO - __init__:27 - TWAP order handler initialized
+2025-07-27 08:59:45,355 - trading_bot - INFO - __init__:24 - Stop-Limit order handler initialized
+2025-07-27 08:59:45,355 - trading_bot - INFO - __init__:26 - Grid trading handler initialized
+2025-07-27 08:59:45,356 - trading_bot - INFO - initialize_binance_client:70 - Binance client initialized
+2025-07-27 08:59:46,063 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 08:59:46,553 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 08:59:46,663 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 08:59:47,263 - trading_bot - INFO - __init__:31 - WebSocket client initialized - Testnet: True
+2025-07-27 08:59:47,923 - trading_bot - INFO - _on_open:200 - WebSocket connection opened
+2025-07-27 08:59:47,965 - trading_bot - INFO - connect:56 - WebSocket connection established
+2025-07-27 08:59:47,966 - trading_bot - INFO - start_websocket:86 - WebSocket connection established
+2025-07-27 08:59:48,624 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 08:59:49,107 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 08:59:49,214 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:03:02,845 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:03:03,470 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:03:03,627 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:09:33,411 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:09:33,457 - trading_bot - INFO - validate_order:243 - Order validation passed: MARKET BUY 0.001 BTCUSDT
+2025-07-27 09:09:33,457 - trading_bot - INFO - log_trade:91 - TRADE: MARKET BUY 0.001 BTCUSDT - ATTEMPTING
+2025-07-27 09:09:33,457 - trading_bot - INFO - place_order:220 - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'reduceOnly': False}
+2025-07-27 09:09:33,935 - trading_bot - INFO - log_trade:91 - TRADE: MARKET BUY 0.001 BTCUSDT (ID: 5482306752) - NEW
+2025-07-27 09:09:33,936 - trading_bot - INFO - place_order:73 - Market order placed successfully: 5482306752
+2025-07-27 09:09:33,937 - trading_bot - INFO - trading_page:358 - Market order placed: {'orderId': 5482306752, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'KIXjnj4CDOKPGpDR55hX4U', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753607373853}
+2025-07-27 09:09:34,484 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:09:34,630 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:09:38,084 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:09:38,144 - trading_bot - INFO - validate_order:243 - Order validation passed: MARKET BUY 0.001 BTCUSDT
+2025-07-27 09:09:38,145 - trading_bot - INFO - log_trade:91 - TRADE: LIMIT BUY 0.001 BTCUSDT @ 0.01 - ATTEMPTING
+2025-07-27 09:09:38,145 - trading_bot - INFO - place_order:220 - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'price': 0.01, 'timeInForce': 'GTC', 'reduceOnly': False}
+2025-07-27 09:09:38,619 - trading_bot - ERROR - _make_request:89 - API request failed: POST /fapi/v1/order - 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&price=0.01&timeInForce=GTC&reduceOnly=False&timestamp=1753607378145&signature=a015b36c321dddfc3a61322e2d10e4ce11bf215209435c43d7aa695d4dbb91f1
+2025-07-27 09:09:38,620 - trading_bot - ERROR - _make_request:93 - API error response: {'code': -4013, 'msg': 'Price less than min price.'}
+2025-07-27 09:09:38,620 - trading_bot - ERROR - log_error:112 - ERROR [ORDER_PLACEMENT]: Failed to place limit order: BTCUSDT BUY 0.001 @ 0.01
+2025-07-27 09:09:39,135 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:09:39,256 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:10:31,767 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:10:31,831 - trading_bot - INFO - log_trade:91 - TRADE: OCO BUY 0.001 BTCUSDT @ 0.01 - ATTEMPTING
+2025-07-27 09:10:32,303 - trading_bot - ERROR - _make_request:89 - API request failed: POST /fapi/v1/order/oco - 404 Client Error: Not Found for url: https://testnet.binancefuture.com/fapi/v1/order/oco?symbol=BTCUSDT&side=BUY&type=OCO&quantity=0.001&price=0.01&stopPrice=0.01&stopLimitPrice=0.01&timeInForce=GTC&stopLimitTimeInForce=GTC&timestamp=1753607431832&signature=eddb136ea40e0b992ed1d3fe3d6cf233e2f39f3400706e26d610f3c2a55eebf4
+2025-07-27 09:10:32,304 - trading_bot - ERROR - _make_request:93 - API error response: {'code': -5000, 'msg': 'Path /fapi/v1/order/oco, Method POST is invalid'}
+2025-07-27 09:10:32,304 - trading_bot - ERROR - log_error:112 - ERROR [OCO_ORDER_PLACEMENT]: Failed to place OCO order: BTCUSDT BUY 0.001
+2025-07-27 09:10:32,797 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:10:32,899 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:14:29,277 - trading_bot - INFO - setup_logger:52 - ==================================================
+2025-07-27 09:14:29,277 - trading_bot - INFO - setup_logger:53 - Trading Bot Logger Initialized - 2025-07-27 09:14:29.277464
+2025-07-27 09:14:29,277 - trading_bot - INFO - setup_logger:54 - ==================================================
+2025-07-27 09:14:29,312 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 09:14:29,313 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 09:14:29,313 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 09:14:30,111 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:14:30,424 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:14:37,681 - trading_bot - INFO - setup_logger:52 - ==================================================
+2025-07-27 09:14:37,681 - trading_bot - INFO - setup_logger:53 - Trading Bot Logger Initialized - 2025-07-27 09:14:37.681396
+2025-07-27 09:14:37,681 - trading_bot - INFO - setup_logger:54 - ==================================================
+2025-07-27 09:14:37,695 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 09:14:37,696 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 09:14:37,697 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 09:14:38,570 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:14:38,898 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:14:42,384 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 09:14:42,385 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 09:14:42,385 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 09:14:42,910 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:14:43,069 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:15:50,312 - trading_bot - INFO - __init__:39 - Binance client initialized - Testnet: True
+2025-07-27 09:15:50,314 - trading_bot - INFO - __init__:18 - Market order handler initialized
+2025-07-27 09:15:50,314 - trading_bot - INFO - __init__:18 - Limit order handler initialized
+2025-07-27 09:15:50,314 - trading_bot - INFO - __init__:20 - OCO order handler initialized
+2025-07-27 09:15:50,315 - trading_bot - INFO - __init__:18 - Market order handler initialized
+2025-07-27 09:15:50,316 - trading_bot - INFO - __init__:27 - TWAP order handler initialized
+2025-07-27 09:15:50,317 - trading_bot - INFO - __init__:24 - Stop-Limit order handler initialized
+2025-07-27 09:15:50,317 - trading_bot - INFO - __init__:26 - Grid trading handler initialized
+2025-07-27 09:15:50,318 - trading_bot - INFO - initialize_binance_client:70 - Binance client initialized
+2025-07-27 09:15:51,344 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:15:52,007 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:15:52,171 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:15:52,715 - trading_bot - INFO - __init__:31 - WebSocket client initialized - Testnet: True
+2025-07-27 09:15:53,456 - trading_bot - INFO - _on_open:200 - WebSocket connection opened
+2025-07-27 09:15:53,519 - trading_bot - INFO - connect:56 - WebSocket connection established
+2025-07-27 09:15:53,520 - trading_bot - INFO - start_websocket:86 - WebSocket connection established
+2025-07-27 09:15:54,475 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:15:55,026 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:15:55,170 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:16:00,031 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:16:00,088 - trading_bot - INFO - log_trade:91 - TRADE: OCO BUY 0.001 BTCUSDT @ 0.01 - ATTEMPTING
+2025-07-27 09:16:00,563 - trading_bot - ERROR - _make_request:89 - API request failed: POST /fapi/v1/order - 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&price=0.01&timeInForce=GTC&timestamp=1753607760089&signature=315a8162f32ee7bb19e9201b1687dc3b9e0c4768e89cf138c5155c0d38303c1f
+2025-07-27 09:16:00,564 - trading_bot - ERROR - _make_request:93 - API error response: {'code': -4013, 'msg': 'Price less than min price.'}
+2025-07-27 09:16:00,564 - trading_bot - ERROR - log_error:112 - ERROR [OCO_ORDER_PLACEMENT]: Failed to place OCO order: BTCUSDT BUY 0.001
+2025-07-27 09:16:01,081 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:16:01,204 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:17:21,227 - trading_bot - INFO - setup_logger:52 - ==================================================
+2025-07-27 09:17:21,227 - trading_bot - INFO - setup_logger:53 - Trading Bot Logger Initialized - 2025-07-27 09:17:21.227830
+2025-07-27 09:17:21,228 - trading_bot - INFO - setup_logger:54 - ==================================================
+2025-07-27 09:17:21,245 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 09:17:21,245 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 09:17:21,246 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 09:17:21,927 - trading_bot - INFO - __init__:18 - Data processor initialized
+2025-07-27 09:17:21,929 - trading_bot - INFO - __init__:14 - Technical indicators calculator initialized
+2025-07-27 09:17:21,929 - trading_bot - INFO - __init__:26 - Validator initialized with trading rules
+2025-07-27 09:17:22,318 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:17:22,607 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:17:23,110 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:17:23,236 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:17:26,901 - trading_bot - INFO - __init__:39 - Binance client initialized - Testnet: True
+2025-07-27 09:17:26,902 - trading_bot - INFO - __init__:18 - Market order handler initialized
+2025-07-27 09:17:26,903 - trading_bot - INFO - __init__:18 - Limit order handler initialized
+2025-07-27 09:17:26,904 - trading_bot - INFO - __init__:20 - OCO order handler initialized
+2025-07-27 09:17:26,905 - trading_bot - INFO - __init__:18 - Market order handler initialized
+2025-07-27 09:17:26,905 - trading_bot - INFO - __init__:27 - TWAP order handler initialized
+2025-07-27 09:17:26,905 - trading_bot - INFO - __init__:24 - Stop-Limit order handler initialized
+2025-07-27 09:17:26,905 - trading_bot - INFO - __init__:26 - Grid trading handler initialized
+2025-07-27 09:17:26,907 - trading_bot - INFO - initialize_binance_client:70 - Binance client initialized
+2025-07-27 09:17:27,918 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:17:28,477 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:17:28,588 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:17:29,834 - trading_bot - INFO - __init__:31 - WebSocket client initialized - Testnet: True
+2025-07-27 09:17:30,534 - trading_bot - INFO - _on_open:200 - WebSocket connection opened
+2025-07-27 09:17:30,540 - trading_bot - INFO - connect:56 - WebSocket connection established
+2025-07-27 09:17:30,541 - trading_bot - INFO - start_websocket:86 - WebSocket connection established
+2025-07-27 09:17:31,489 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:17:32,046 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:17:32,224 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:17:39,330 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:17:39,400 - trading_bot - INFO - log_trade:91 - TRADE: OCO BUY 0.001 BTCUSDT @ 118000.0 - ATTEMPTING
+2025-07-27 09:17:39,868 - trading_bot - INFO - _place_oco_order:141 - OCO-style limit order placed: BTCUSDT BUY 0.001 @ 118000.0
+2025-07-27 09:17:40,339 - trading_bot - INFO - log_trade:91 - TRADE: OCO BUY 0.001 BTCUSDT @ 118000.0 (ID: OCO_SIM_1753607860) - NEW
+2025-07-27 09:17:40,339 - trading_bot - INFO - place_order:80 - OCO order placed successfully: OCO_SIM_1753607860
+2025-07-27 09:17:40,340 - trading_bot - INFO - advanced_orders_page:425 - OCO order placed: {'orderListId': 'OCO_SIM_1753607860', 'limit_order': {'orderId': 5482338033, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'E32sRxia5yWV1qtCV1TVdg', 'price': '118000.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753607859786}, 'stop_order': {'orderId': 5482338051, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'zwSefpxfFog6UJhbxVPwdl', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '115000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753607860256}, 'type': 'OCO_SIMULATION', 'status': 'NEW'}
+2025-07-27 09:17:40,834 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:17:40,936 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:18:16,597 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:18:16,645 - trading_bot - INFO - validate_order:243 - Order validation passed: MARKET BUY 0.001 BTCUSDT
+2025-07-27 09:18:16,646 - trading_bot - INFO - log_trade:91 - TRADE: MARKET BUY 0.001 BTCUSDT - ATTEMPTING
+2025-07-27 09:18:16,647 - trading_bot - INFO - place_order:220 - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'reduceOnly': False}
+2025-07-27 09:18:17,123 - trading_bot - INFO - log_trade:91 - TRADE: MARKET BUY 0.001 BTCUSDT (ID: 5482341237) - NEW
+2025-07-27 09:18:17,123 - trading_bot - INFO - place_order:73 - Market order placed successfully: 5482341237
+2025-07-27 09:18:17,124 - trading_bot - INFO - trading_page:358 - Market order placed: {'orderId': 5482341237, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'xC3JNxHOSRQV4GgHCSzdnV', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753607897036}
+2025-07-27 09:18:17,710 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:18:17,899 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
+2025-07-27 09:18:22,107 - trading_bot - INFO - calculate_all_indicators:264 - All technical indicators calculated successfully
+2025-07-27 09:18:22,167 - trading_bot - INFO - validate_order:243 - Order validation passed: MARKET BUY 0.001 BTCUSDT
+2025-07-27 09:18:22,169 - trading_bot - INFO - log_trade:91 - TRADE: LIMIT BUY 0.001 BTCUSDT @ 118000.0 - ATTEMPTING
+2025-07-27 09:18:22,173 - trading_bot - INFO - place_order:220 - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'price': 118000.0, 'timeInForce': 'GTC', 'reduceOnly': False}
+2025-07-27 09:18:22,644 - trading_bot - INFO - log_trade:91 - TRADE: LIMIT BUY 0.001 BTCUSDT @ 118000.0 (ID: 5482341440) - NEW
+2025-07-27 09:18:22,644 - trading_bot - INFO - place_order:79 - Limit order placed successfully: 5482341440
+2025-07-27 09:18:22,645 - trading_bot - INFO - trading_page:383 - Limit order placed: {'orderId': 5482341440, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'xrjluK4aLsbFVbBN2JL1Il', 'price': '118000.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753607902562}
+2025-07-27 09:18:23,277 - trading_bot - INFO - load_historical_data:64 - Loaded 211224 historical trading records
+2025-07-27 09:18:23,509 - trading_bot - INFO - load_fear_greed_data:100 - Loaded 2644 Fear & Greed Index records
