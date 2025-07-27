@@ -24,25 +24,12 @@ A comprehensive real-time trading bot for Binance USDT-M Futures with advanced o
 
 ## 📸 Screenshots
 
-### Dashboard Overview
-![Dashboard](screenshots/screenshot1.png)
-*Main trading dashboard with live market data and price charts*
-
-### Trading Interface
-![Trading Interface](screenshots/screenshot2.png)
-*Advanced order placement interface with multiple order types*
-
-### Technical Analysis
-![Technical Analysis](screenshots/screenshot3.png)
-*Real-time technical indicators and chart analysis*
-
-### Historical Data Analysis
-![Historical Analysis](screenshots/screenshot4.png)
-*Comprehensive analysis of 211K+ historical trading records*
-
-### Market Sentiment
-![Market Sentiment](screenshots/screenshot5.png)
-*Fear & Greed Index analysis with market psychology insights*
+(screenshots/screenshot1.png)
+(screenshots/screenshot2.png)
+(screenshots/screenshot3.png)
+(screenshots/screenshot4.png)
+(screenshots/screenshot5.png)
+(screenshots/screenshot6.png)
 
 ## 🛠️ Installation
 
